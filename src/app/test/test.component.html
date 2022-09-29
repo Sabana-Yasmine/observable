@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+      <tr>
+        
+        <th scope="col">Category</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of data" >
+        <td >{{d.productCategory}}</td>
+        <td >{{d.productName}}</td>
+        <td >{{d.price}}</td>
+        <td >{{d.quantity}}</td>
+<!--       
+        <td *ngFor="let categ of Category">{{categ}}</td>
+        <td *ngFor="let name of Name">{{name}}</td>
+        <td *ngFor="let price of Price">{{price}</td>
+        <td *ngFor="let quan of Quantity">{{quan}}</td>
+         -->
+      </tr>
+      
+    </tbody>
+  </table>
