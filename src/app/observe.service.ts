@@ -15,3 +15,4 @@ export class ObserveService {
     return this.http.get("http://localhost:402/product/getallproduct")
   }
 }
+ 
